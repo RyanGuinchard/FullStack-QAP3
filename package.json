@@ -1,0 +1,11 @@
+{
+  "name": "fullstack-qap3",
+  "version": "1.0.0",
+  "description": "The focus of this QAP is the creation of a FullStack-Database application using Node, Express, EJS, and PostgreSQL.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
