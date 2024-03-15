@@ -1,0 +1,23 @@
+Test Scenario 1: View Products
+Example: When I visit the website, I see a list of products with their names and prices.
+
+Test Scenario 2: Add Product
+Example: After clicking "Add Product", I fill out a form with the new product's name and price. Upon submission, the product appears in the list.
+
+Test Scenario 3: Edit Product
+Example: By clicking "Edit" next to a product, I can change its name or price. After saving, the product details update.
+
+Test Scenario 4: Delete Product
+Example: Clicking "Delete" next to a product removes it from the list after confirmation.
+
+Test Scenario 5: Fetch All Products (API)
+Example: Sending a GET request to "/api/products" returns all products with their details in JSON format.
+
+Test Scenario 6: Retrieve Specific Product (API)
+Example: A GET request to "/api/products/{productId}" returns details of the product with the given ID.
+
+Test Scenario 7: Update Product (API)
+Example: Sending a PUT request to "/api/products/{productId}" with updated details modifies the product in the database.
+
+Test Scenario 8: Delete Product (API)
+Example: A DELETE request to "/api/products/{productId}" removes the product with the specified ID from the database.
