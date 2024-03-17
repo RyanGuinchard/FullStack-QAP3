@@ -1,0 +1,7 @@
+<%- include('./partials/head.ejs') %>
+<section>
+    <h2><%= product.name %></h2>
+    <p>Price: <%= product.price %></p>
+    <p>Quantity: <%= product.quantity %></p>
+    <a href="/product/edit/<%= product.id %>">Edit</a>
+</section>

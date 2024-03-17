@@ -1,0 +1,14 @@
+<%- include('./partials/head.ejs') %>
+<section>
+    <h2>Edit Product</h2>
+    <form action="/product/<%= product.id %>" method="POST">
+        <input type="hidden" name="_method" value="PATCH">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" value="<%= product.name %>">
+        <label for="price">Price:</label>
+        <input type="number" step="0.01" id="price" name="price" value="<%= product.price %>">
+        <label for="quantity">Quantity:</label>
+        <input type="number" id="quantity" name="quantity" value="<%= product.quantity %>">
+        <button type="submit">Update Product</button>
+    </form>
+</section>
