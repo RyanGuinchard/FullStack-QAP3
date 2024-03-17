@@ -4,9 +4,9 @@
   <ul>
     <% products.forEach(function(product) { %>
       <li>
-        <a href="/product/<%= product.id %>"><%= product.name %></a>
-        <a href="/product/edit/<%= product.id %>">Edit</a>
-        <form action="/product/<%= product.id %>" method="POST">
+        <a href="/product/<%= product.product_id %>"><%= product.name %></a>
+        <a href="/product/edit/<%= product.product_id %>">Edit</a>
+        <form action="/product/<%= product.product_id %>" method="POST">
           <input type="hidden" name="_method" value="DELETE">
           <button type="submit">Delete</button>
         </form>
